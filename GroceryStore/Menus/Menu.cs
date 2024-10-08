@@ -12,6 +12,6 @@ internal class Menu
         Console.WriteLine("4. Avsluta");
         Console.Write("Välj ett av ovanstående alternativ (1-4):");
 
-        var input = Console.ReadLine();
+        var input = Console.ReadLine(); 
     }
 }
