@@ -12,6 +12,27 @@ internal class Menu
         Console.WriteLine("4. Avsluta");
         Console.Write("Välj ett av ovanstående alternativ (1-4):");
 
-        var input = Console.ReadLine(); 
+        var input = Console.ReadLine();
+
+        switch (input)
+        {
+            case "1":
+                break;
+
+            case "2":
+                break;
+
+            case "3":
+                break;
+
+            case "4":
+                break;
+
+            default:
+                Console.WriteLine("\nFelaktigt val, försök igen");
+                Console.ReadKey();
+                break;
+        }
+
     }
 }
