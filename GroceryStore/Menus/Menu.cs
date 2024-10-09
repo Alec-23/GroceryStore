@@ -2,7 +2,7 @@
 
 internal class Menu
 {
-    private readonly CustomerMenu customerMenu = new CustomerMenu();
+    private readonly ProductMenu productMenu = new ProductMenu();
     public void ShowMainMenu()
     {
         Console.Clear();
@@ -30,7 +30,7 @@ internal class Menu
             case "4":
                 break;
 
-            case "5"
+            case "5":
                 break; 
 
             default:
