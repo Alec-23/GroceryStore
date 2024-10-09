@@ -30,6 +30,9 @@ internal class Menu
             case "4":
                 break;
 
+            case "5"
+                break; 
+
             default:
                 Console.WriteLine("\nFelaktigt val, försök igen");
                 Console.ReadKey();
