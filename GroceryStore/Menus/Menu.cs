@@ -2,6 +2,7 @@
 
 internal class Menu
 {
+    private readonly CustomerMenu customerMenu = new CustomerMenu();
     public void ShowMainMenu()
     {
         Console.Clear();
