@@ -1,12 +1,12 @@
 ﻿namespace Resources.Models;
 
-public class Products
+public class Product
 {
     public int Id { get; set; }
     public string Name { get; set; } = null!;
     public decimal Price { get; set; }
 
-    public Products(string name, decimal price)
+    public Product(string name, decimal price)
     {
         Id = new Random().Next(1000, 9999);
         Name = name;

@@ -4,9 +4,9 @@ namespace Resources.Services;
 
 public class ProductService
 {
-    private List<Products> productList = new List<Products>();
+    private List<Product> productList = new List<Product>();
 
-    public void AddProduct(Products product)
+    public void AddProduct(Product product)
     {
         productList.Add(product);
     }
@@ -20,7 +20,7 @@ public class ProductService
         }
     }
 
-    public List<Products> GetAllProducts()
+    public List<Product> GetAllProducts()
     {
         return productList;
     }
